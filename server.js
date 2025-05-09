@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const connectDB = require('./config/MongoDB')
-const bosyParser = require('body-parser')
+const bodyParser = require('body-parser')
 const dotEnv = require('dotenv')
 const cors = require('cors');
 dotEnv.config();
